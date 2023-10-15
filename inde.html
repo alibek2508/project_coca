@@ -14,63 +14,103 @@
   </head>
   <body>
     <!-- Первая секция -->
-    <div class="container main-section">
-      <div class="main-section__header-container">
-        <div class="main-section__nav-container">
-          <!-- Навигационный меню -->
-          <header class="main-section__header">
-            <a href="#"
-              ><img
-                class="main-section__logo"
-                src="./icons/Logo.svg"
-                alt="Логотип сайта"
-            /></a>
-          </header>
-          <nav class="main-section__navbar nav-menu">
-            <ul class="nav-menu__list">
-              <li class="nav-menu__item">About</li>
-              <li class="nav-menu__item">Blog</li>
-              <li class="nav-menu__item">Contact</li>
-            </ul>
-          </nav>
-        </div>
-        <div class="main-section__btn button">
-          <button class="button__main-btn">Sign In</button>
-        </div>
-      </div>
-      <!-- Контент первой секций -->
-      <div class="main-section__content-container">
-        <!-- левая часть первой секций -->
-        <div class="left-wrapper">
-          <p class="left-wrapper__first-text">Coworking Spaces for All</p>
-          <h1 class="left-wrapper__title-text">The best coworking in NYC</h1>
-          <p class="left-wrapper__second-text">
-            Coworking is all about being your own boss, and that's why it's such
-            a great fit for freelancers. But it can be hard to know what you're
-            getting into when you first start out.
-          </p>
+    <div class="main-section">
+      <div class="container">
+        <div class="main-section__header-container">
+          <div class="main-section__nav-container">
+            <!-- Навигационный меню -->
+            <header class="main-section__header">
+              <a href="#"
+                ><img
+                  class="main-section__logo"
+                  src="./icons/Logo.svg"
+                  alt="Логотип сайта"
+              /></a>
+            </header>
+            <nav class="main-section__navbar nav-menu">
+              <ul class="nav-menu__list">
+                <li class="nav-menu__item">About</li>
+                <li class="nav-menu__item">Blog</li>
+                <li class="nav-menu__item">Contact</li>
+              </ul>
+            </nav>
+          </div>
           <div class="main-section__btn button">
-            <button class="button__main-btn">
-              See Availability
-              <img src="./icons/Icon_arround.svg" alt="Иконка стрелки" />
-            </button>
+            <button class="button__main-btn">Sign In</button>
           </div>
         </div>
-        <!-- правая часть первой секций -->
-        <div class="right-wrapper">
-          <div class="right-wrapper__img">
-            <div class="right-wrapper__rectangle">
-              <div class="rectangle-content">
-                <div class="rectangle-content__avatars">
-                  <img class="ava1" src="./icons/avatar-1.svg" alt="" />
-                  <img class="ava2" src="./icons/avatar-2.svg" alt="" />
-                  <img class="ava3" src="./icons/avatar-3.svg" alt="" />
-                  <img class="ava4" src="./icons/avatar-4.svg" alt="" />
-                  <img class="ava5" src="./icons/avatar-5.svg" alt="" />
+        <!-- Контент первой секций -->
+        <div class="main-section__content-container">
+          <!-- левая часть первой секций -->
+          <div class="left-wrapper">
+            <p class="left-wrapper__first-text">Coworking Spaces for All</p>
+            <h1 class="left-wrapper__title-text">The best coworking in NYC</h1>
+            <p class="left-wrapper__second-text">
+              Coworking is all about being your own boss, and that's why it's
+              such a great fit for freelancers. But it can be hard to know what
+              you're getting into when you first start out.
+            </p>
+            <div class="main-section__btn button">
+              <button class="button__main-btn">
+                See Availability
+                <img src="./icons/Icon_arround.svg" alt="Иконка стрелки" />
+              </button>
+            </div>
+          </div>
+          <!-- правая часть первой секций -->
+          <div class="right-wrapper">
+            <div class="right-wrapper__img">
+              <div class="right-wrapper__rectangle">
+                <div class="rectangle-content">
+                  <div class="rectangle-content__avatars">
+                    <img class="ava1" src="./icons/avatar-1.svg" alt="" />
+                    <img class="ava2" src="./icons/avatar-2.svg" alt="" />
+                    <img class="ava3" src="./icons/avatar-3.svg" alt="" />
+                    <img class="ava4" src="./icons/avatar-4.svg" alt="" />
+                    <img class="ava5" src="./icons/avatar-5.svg" alt="" />
+                  </div>
+                  <h2 class="rectangle-content__num">5K+</h2>
+                  <p class="rectangle-content__text">Visitors per month</p>
                 </div>
-                <h2 class="rectangle-content__num">5K+</h2>
-                <p class="rectangle-content__text">Visitors per month</p>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Вторая секция -->
+      <div class="coworking-section">
+        <div class="container">
+          <div class="coworking-container">
+            <!-- Левая часть второй секций -->
+            <div class="coworking-section__right-wrapper">
+              <div class="coworking-section__right-img">
+                <img
+                  class="coworking-section__img"
+                  src="./img/coworking-img.jpg"
+                  alt="Изображание коворкинг"
+                />
+              </div>
+              <div class="coworking-section__rectangle-content">
+                <div class="left-wrapper__rectangle">
+                  <h2 class="rectangle-content__num">30+</h2>
+                  <p class="rectangle-content__text">Rooms available</p>
+                </div>
+              </div>
+            </div>
+            <!-- Правая часть  второй секций-->
+            <div class="coworking-section__left-wrapper">
+              <h2 class="coworking-section__title-text">
+                Coworking Spaces for Startup
+              </h2>
+              <p class="coworking-section__text">
+                This guide will give you an overview of the different types of
+                coworking spaces available, and help you decide which one is
+                right for you.
+              </p>
+              <div class="coworking-section__btn button">
+                <button class="button__main-btn">
+                  Get Workspace
+                </button>
             </div>
           </div>
         </div>
