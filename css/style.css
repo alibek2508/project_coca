@@ -119,8 +119,10 @@
   background: url(../img/Image_main_section.jpg);
 }
 .right-wrapper__rectangle {
-  height: 245px;
+  display: inline-flex;
+  flex-direction: column;
   padding: 24px;
+  gap: 16px;
   border-radius: 16px;
   background: #fff;
   box-shadow: 20px 40px 80px 0px rgba(45, 51, 81, 0.12);
@@ -128,63 +130,69 @@
   margin-bottom: 30px;
 }
 .rectangle-content__avatars {
-  display: flex;
-  justify-content: center;
+  width: 162px;
   position: relative;
-  margin-bottom: 59px;
 }
 
 .ava1 {
   display: flex;
   height: 40px;
+  width: 40px;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: absolute;
+  left: 0;
   z-index: 1;
 }
 .ava2 {
   display: flex;
   height: 40px;
+  width: 40px;
   justify-content: center;
   align-items: center;
-  position: relative;
-  right: 10px;
+  position: absolute;
+  left: 32px;
   z-index: 2;
 }
 .ava3 {
   display: flex;
   height: 40px;
+  width: 40px;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  position: relative;
-  right: 20px;
+  position: absolute;
+  left: 62px;
   z-index: 3;
 }
 .ava4 {
   display: flex;
   height: 40px;
+  width: 40px;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  position: relative;
-  right: 30px;
+  position: absolute;
+  left: 92px;
   z-index: 4;
 }
 .ava5 {
   height: 40px;
+  width: 40px;
   flex-shrink: 0;
-  position: relative;
-  right: 40px;
+  position: absolute;
+  left: 122px;
   z-index: 5;
 }
 .rectangle-content__num {
+  position: relative;
+  display: block;
   color: #101010;
   font-family: Plus Jakarta Sans;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  margin-bottom: 16px;
+  padding: 95px 0 16px 0;
 }
 .rectangle-content__text {
   color: #101010;
