@@ -40,6 +40,13 @@
   font-style: normal;
   font-weight: 400;
 }
+.nav-menu__item:hover {
+  color: #24aa4a;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
 .nav-menu__item:last-child {
   margin-right: 0;
 }
@@ -62,6 +69,9 @@
   font-style: normal;
   font-weight: 700;
   line-height: 150%;
+}
+.button__main-btn:hover {
+  background: #4abc6a;
 }
 .main-section__content-container {
   display: flex;
@@ -478,4 +488,114 @@
 }
 .survey-section__about-img {
   height: 491px;
+}
+.footer-section {
+  background: #ebfaef;
+  padding: 100px 0 100px 0;
+}
+.footer-section__row-one {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.footer-section__cta {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+.footer-section__cta-text {
+  color: #101010;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.line-footer {
+  width: 1200px;
+  height: 1px;
+  background: #e9ecf2;
+  margin-bottom: 40px;
+}
+.footer-section__row-two {
+  display: flex;
+  margin-bottom: 67px;
+}
+.footer-subscribe {
+  color: #1d1e25;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  width: 194px;
+  margin-bottom: 30px;
+}
+.footer-input-box {
+  display: flex;
+  align-items: center;
+}
+.footer-input {
+  width: 289px;
+  height: 51px;
+  border: none;
+  background-color: #ebfaef;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  color: #757b8a;
+}
+.submit-img {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+.submit-line {
+  width: 289px;
+  height: 1px;
+  opacity: 0.1;
+  background: var(--Black, #1d1e25);
+}
+.footer-section__newsleter {
+  margin-right: 100px;
+}
+.footer-section__menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 160px;
+}
+.footer-section__menu-title {
+  color: #24aa4a;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer-navbar__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer-navbar__item {
+  color: #101010;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.footer-section__row-three {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section__row-text {
+  display: flex;
+  gap: 55px;
+}
+.row-text {
+  color: #101010;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
 }
